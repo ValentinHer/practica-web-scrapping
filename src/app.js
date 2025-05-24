@@ -82,7 +82,7 @@ let resulatdostoExcle = [];
             defaultValue: 'No Hay Info',
         });
         const csv = json2csvParse.parse(resultadosArray);
-        fs.writeFileSync("uotes.csv", csv, "utf-8");
+        fs.writeFileSync("quotes.csv", csv, "utf-8");
         console.log("ARCVHIVO CSV CREADO!!!");
  
         //Crear archivo XLSX
